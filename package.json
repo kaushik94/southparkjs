@@ -4,7 +4,7 @@
   "description": "An unofficial library for southpark.cc.com",
   "main": "southpark.js",
   "scripts": {
-    "test": "test"
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,15 @@
   "bugs": {
     "url": "https://github.com/kaushik94/southparkjs/issues"
   },
-  "homepage": "https://github.com/kaushik94/southparkjs#readme"
+  "homepage": "https://github.com/kaushik94/southparkjs#readme",
+  "devDependencies": {
+    "browserify": "^11.2.0",
+    "chai": "^3.3.0",
+    "uglify-js": "^2.4.24",
+    "watchify": "^3.4.0"
+  },
+  "dependencies": {
+    "mocha": "^2.3.3",
+    "underscore": "^1.8.3"
+  }
 }

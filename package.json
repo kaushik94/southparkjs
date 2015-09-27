@@ -4,7 +4,8 @@
   "description": "An unofficial library for southpark.cc.com",
   "main": "southpark.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "run": "node southpark.js"
   },
   "repository": {
     "type": "git",
@@ -26,8 +27,7 @@
   "devDependencies": {
     "browserify": "^11.2.0",
     "chai": "^3.3.0",
-    "uglify-js": "^2.4.24",
-    "watchify": "^3.4.0"
+    "uglify-js": "^2.4.24"
   },
   "dependencies": {
     "mocha": "^2.3.3",
